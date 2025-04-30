@@ -1,0 +1,59 @@
+
+body {
+    margin: 0px;
+    padding: 0px ;
+}
+
+form {
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    border: 35px solid black;
+}
+
+a {
+    color: black;
+    font-size: x-large;
+    font-family: serif;
+    text-decoration: none;
+}
+
+button {
+    margin: 5px;
+    background-color: gray;
+    border: 5px solid gray;
+    border-radius: 7px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.box1 {
+    padding: 5px;
+    display: ruby;
+}
+
+.box2 {
+    padding: 5px;
+    display: ruby;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxa {
+    display: grid;
+    text-align: left;
+}
+
+.boxb {
+    display: grid;
+    text-align: left;
+}

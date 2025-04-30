@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+nav{
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  margin: 0 3px;
+}
+
+li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  list-style-position: inside;
+}
+
+main {
+  height: 852px;
+  background-color:gainsboro ;
+  background-image: url(MHS.png);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: center;
+  background-attachment: unset; 
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+

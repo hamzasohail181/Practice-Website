@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <form action="/action.php">
+        <h1>Registration Form</h1>
+
+        <div class="container">
+            <div class="box1">
+                <h5>Username</h5>
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="box2">
+                <h5>Password</h5><input type="text" placeholder="Password">
+            </div>
+        </div>
+        <br>
+        <h5>Select Your Class</h5>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">class XI
+        </label><label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+        <h5>Select Fav Subjects</h5>
+        <div class="container2">
+            <div class="boxa">
+                <label for="Maths">
+                    <input type="checkbox" value="Maths" name="subject" id="101">Maths</label>
+                <label for="Physic">
+                    <input type="checkbox" value="Physic" name="subject" id="102">Physic</label>
+                <label for="Chemistry">
+                    <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry</label>
+            </div>
+            <div class="boxb">
+                <label for="Pakistan Studies">
+                    <input type="checkbox" value="Pakistan Studies" name="subject" id="105">Pakistan Studies</label>
+                <label for="Urdu">
+                    <input type="checkbox" value="Urdu" name="subject" id="106">urdu </label>
+                <label for="Islamiat">
+                    <input type="checkbox" value="Islamiat" name="subject" id="107">Islamiat
+                </label>
+            </div>
+        </div>
+        <br>
+        <label for="English">
+            <input type="checkbox" value="English" name="subject" id="104">English</label>
+        <br>
+        <h5>Select your city</h5>
+        <select name="city">
+            <option value="None">none</option>
+            <option value="Karachi">Karachi</option>
+            <option value="lahore">lahore</option>
+            <option value="Hyderabad">hyderabad</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Multan">Multan</option>
+            <option value="Islamabad">Islamabad</option>
+        </select>
+        <br><br>
+        <textarea name="Feedback" id="101" placeholder="Please give your valuable Feedback" cols="70"
+            rows="10"></textarea>
+        <br><br>
+        <button><a href="#">Submit</a></button>
+    </form>
+</body>
+
+</html>
